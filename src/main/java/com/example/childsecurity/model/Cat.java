@@ -2,23 +2,20 @@ package com.example.childsecurity.model;
 
 public class Cat {
 
-     String name;
-    Cat() {
-        System.out.println("Cat is black");
+    private String name;
+
+    public Cat(String name) {
+        this.name = name;
     }
     public static void main(String[] args) {
-        System.out.println("Cat");
 
-
-        System.out.println("Ismoil qoshdi");
-        Cat cat1 = new Cat();
-        cat1.name = "Rapunsel";
-
+        Cat cat = new Cat("Tom");
+        System.out.println(cat.name+" Tom is a cat . It is white and has a tail");
     }
 
 
 
-    Cat cat2 = new Cat();
+    Cat cat2 = new Cat("Tom");
 
 
 }
