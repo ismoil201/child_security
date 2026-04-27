@@ -11,6 +11,11 @@ public class Cat {
 
         Cat cat = new Cat("Tom");
         System.out.println(cat.name+" Tom is a cat . It is white and has a tail");
+
+
+
+
+
     }
 
 
